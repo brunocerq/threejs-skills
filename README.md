@@ -45,6 +45,7 @@ mkdir -p .claude/skills && cp -r threejs-skills/skills/* .claude/skills/
 | **threejs-performance**    | Measuring frame cost, draw calls, GPU memory, fill rate, compile stalls        |
 | **threejs-react-three-fiber** | React Three Fiber 9 and a verified set of drei helpers, on WebGL or WebGPU |
 | **threejs-asset-pipeline** | gltf-transform: Draco, meshopt, KTX2, WebP, and the matching loader setup      |
+| **threejs-technical-animation** | Camera paths on curves, easing, a scrubbable timeline, exploded views, section planes |
 
 ## How It Works
 
@@ -57,6 +58,7 @@ Claude Code loads a skill when your request matches its description. When you as
 - make a slow scene faster → `threejs-performance`
 - build the scene with React → `threejs-react-three-fiber`
 - shrink a glTF before shipping it → `threejs-asset-pipeline`
+- animate an exploded view, a section cut or a camera tour → `threejs-technical-animation`
 
 ## Skill File Structure
 
